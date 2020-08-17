@@ -15,10 +15,10 @@ namespace RecipeApp1.Models
         [System.ComponentModel.DisplayName("Difficulty Rating 1-5")]
         [Required(ErrorMessage = "Rating is required")]
         public int Rating { get; set; }
-        [System.ComponentModel.DisplayName("Hours (ex. 01)")]
+        [System.ComponentModel.DisplayName("Hours")]
         [Required(ErrorMessage = "Hours is required")]
         public int Hours { get; set; }
-        [System.ComponentModel.DisplayName("Minutes (ex. 25)")]
+        [System.ComponentModel.DisplayName("Minutes")]
         [Required(ErrorMessage = "Minutes is required")]      
         public int Minutes { get; set; }
         [System.ComponentModel.DisplayName("Instructions")]
